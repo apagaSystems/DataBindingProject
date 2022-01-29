@@ -12,6 +12,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        binding.button1.text="Binding"
+        binding.button1.text="Binding Button"
+        binding.text="Hello"
+    }
+
+    fun onClickButtonCount(){
+        binding.text="Hello DataBinding"
+        binding.textView2.text="New data from dataBinding"
     }
 }
