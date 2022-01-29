@@ -18,7 +18,7 @@ class MyFragment : Fragment() {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_my, container, false)
         return binding.root
     }
-fun fragmentComunication(){
+fun fragmentCommunication(){
     binding.textView3.text="OKoKOK"
 }
 
